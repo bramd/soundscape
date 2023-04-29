@@ -39,7 +39,7 @@ class AppContext {
     
     static let shared = AppContext()
     
-    static let appDisplayName = "AppName"
+    static let appDisplayName = "Soundscape"
     static let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
     static let appBuild = Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as! String
     static let appStoreId = "1240320677"
@@ -376,16 +376,16 @@ extension AppContext {
     
     struct Links {
         static func privacyPolicyURL(for locale: Locale) -> URL {
-            return URL(string: "INSERT PRIVACY POLICY URL HERE")!
+            return URL(string: "http://example.com/")!
         }
         
         static func servicesAgreementURL(for locale: Locale) -> URL {
-            return URL(string: "INSERT SERVICES AGREEMENT URL HERE")!
+            return URL(string: "http://example.com/")!
         }
     
-        static let companySupportURL = URL(string: "INSERT SUPPORT URL HERE")!
+        static let companySupportURL = URL(string: "http://example.com/")!
         
-        static let accessibilityFrance = URL(string: "INSERT ACCESSIBILITY STATEMENT URL HERE")!
+        static let accessibilityFrance = URL(string: "http://example.com/")!
     }
     
 }

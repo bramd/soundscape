@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:soundscape-app.yourservicesdomain.com</string>
+		<string>applinks:soundscape-app.bramd.nl</string>
 	</array>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array/>
